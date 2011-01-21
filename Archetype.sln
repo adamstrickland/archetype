@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5CAFEB89-85A2-444B-ABFB-C3134FE75CE6}"
+	ProjectSection(SolutionItems) = preProject
+		Archetype.vsmdi = Archetype.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archetype", "Archetype\Archetype.csproj", "{9E2E0F75-ED8F-4A93-85A6-8466F2F9C04E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archetype.Test", "Archetype.Test\Archetype.Test.csproj", "{B91AED88-AAA8-48A2-8341-D5599ECBE50E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Archetype.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E2E0F75-ED8F-4A93-85A6-8466F2F9C04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E2E0F75-ED8F-4A93-85A6-8466F2F9C04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E2E0F75-ED8F-4A93-85A6-8466F2F9C04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E2E0F75-ED8F-4A93-85A6-8466F2F9C04E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91AED88-AAA8-48A2-8341-D5599ECBE50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91AED88-AAA8-48A2-8341-D5599ECBE50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91AED88-AAA8-48A2-8341-D5599ECBE50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91AED88-AAA8-48A2-8341-D5599ECBE50E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
